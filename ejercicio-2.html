@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="es" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <title>ejercicio-2 flexbox</title>
+    <meta name="author" content="Tania Gómez">
+    <meta name="description" content="Ejercicio de flexbox">
+    <meta name="keywords" content="flexbox">
+    <!-- Google font: Lato(light, Regular, Bold, Black)
+    <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,900&display=swap" rel="stylesheet">
+    Font Awesome
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+    Mi hoja de estilos
+    <link rel="stylesheet" href="assets/css/main.css"> -->
+    <style media="screen">
+      :root {
+        font-family: monospace;
+      }
+
+      p {
+        font-size: 20px;
+      }
+
+      .container {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        height: 400px;
+      }
+
+      .item-1 {
+        width: 600px;
+        height: 60px;
+        align-self: center;
+        text-align: center;
+        background-color: white;
+        border: 1px solid gray;
+      }
+
+      .item-2 {
+        width: 120px;
+        height: 60px;
+        align-self: center;
+        text-align: center;
+        background-color: #56cbf9;
+        color: white;
+        border: 1px solid gray;
+      }
+    </style>
+  </head>
+
+  <body>
+    <div class="container">
+      <div class="item-1"></div>
+      <div class="item-2"><p>Buscar</p></div>
+    </div>
+  </body>
+
+</html>

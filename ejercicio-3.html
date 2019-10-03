@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="es" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <title>ejercicio-3 flexbox</title>
+    <meta name="author" content="Tania Gómez">
+    <meta name="description" content="Ejercicio de flexbox">
+    <meta name="keywords" content="flexbox">
+    <!-- Google font: Lato(light, Regular, Bold, Black) -->
+    <!-- <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,900&display=swap" rel="stylesheet"> -->
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+    <!-- Mi hoja de estilos -->
+    <!-- <link rel="stylesheet" href="assets/css/main.css"> -->
+    <style media="screen">
+      :root {
+        font-family: monospace;
+      }
+
+      .container {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        height: 5rem;
+        padding: 0 3rem;
+        border: 1px solid grey;
+        justify-content: space-between;
+        align-items: center;
+      }
+
+      p {
+        font-size: 16px;
+      }
+
+      .item-logo {
+        color: grey;
+      }
+
+      .menu-box {
+        display: inline-flex;
+      }
+
+      .item-menu {
+        color: black;
+        text-align: center;
+        width: 10em;
+      }
+
+    </style>
+  </head>
+
+  <body>
+    <div class="container">
+      <div class="item-logo"><i class="fas fa-anchor fa-2x"></i></div>
+      <div class="menu-box">
+        <div class="item-menu"><p>Inicio</p></div>
+        <div class="item-menu"><p>Entrevistas</p></div>
+        <div class="item-menu"><p>Música</p></div>
+        <div class="item-menu"><p>Tendencias</p></div>
+      </div>
+    </div>
+  </body>
+
+</html>

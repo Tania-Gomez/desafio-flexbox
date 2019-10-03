@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="es" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <title>ejercicio-5 flexbox</title>
+    <meta name="author" content="Tania Gómez">
+    <meta name="description" content="Ejercicio de flexbox">
+    <meta name="keywords" content="flexbox">
+    <!-- Google font: Lato(light, Regular, Bold, Black) -->
+    <!-- <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,900&display=swap" rel="stylesheet"> -->
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+    <!-- Mi hoja de estilos -->
+    <!-- <link rel="stylesheet" href="assets/css/main.css"> -->
+    <style media="screen">
+      .container-top {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+      }
+      .container-center {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+      }
+      .container-bottom {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: flex-start;
+      }
+
+      .container-top img {
+        width: 200px;
+        height: 200px;
+        margin: 10px;
+      }
+
+      .container-center img {
+        width: 860px;
+        height: 340px;
+        margin: 10px;
+      }
+
+      .container-bottom img {
+        width: 200px;
+        height: 200px;
+        margin: 10px;
+      }
+
+      .container-bottom .vert{
+        width: 200px;
+        height: 300px;
+        margin: 10px;
+      }
+
+      .cover {
+        object-fit: cover;
+      }
+
+    </style>
+  </head>
+
+  <body>
+    <div class="container-top">
+    <img src="flor-1.jpg" alt="flor" class="cover"/>
+    <img src="flor-2.jpg" alt="flor" class="cover"/>
+    <img src="flor-3.jpg" alt="flor" class="cover"/>
+    <img src="flor-4.jpg" alt="flor" class="cover"/>
+    </div>
+
+    <div class="container-center">
+      <img src="https://cdn.pixabay.com/photo/2019/03/03/15/05/nature-4032056_1280.jpg" alt="flor" class="cover"/>
+    </div>
+
+    <div class="container-bottom">
+      <img src="flor-5.jpg" alt="flor" class="cover"/>
+      <img src="lg-1.jpg" alt="flor" class="vert cover"/>
+      <img src="flor-6.jpg" alt="flor" class="cover"/>
+      <img src="lg-1.jpg" alt="flor" class="vert cover"/>
+    </div>
+
+  </body>
+
+</html>
